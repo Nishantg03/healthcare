@@ -90,7 +90,7 @@ npm run dev
 
 Frontend will be available at: `http://localhost:3000`
 
-https://github.com/Nishantg03/healthcare/blob/0042434f63e529f5fc47896ec67cb0c5dbe46b6e/Screenshot%202026-05-29%20133610.png
+![image alt](https://github.com/Nishantg03/healthcare/blob/0042434f63e529f5fc47896ec67cb0c5dbe46b6e/Screenshot%202026-05-29%20133610.png)
 
 ## Excel Workbook Format
 
