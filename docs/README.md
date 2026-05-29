@@ -92,18 +92,17 @@ Frontend will be available at: `http://localhost:3000`
 
 ![image alt](https://github.com/Nishantg03/healthcare/blob/0042434f63e529f5fc47896ec67cb0c5dbe46b6e/Screenshot%202026-05-29%20133610.png)
 
-![image alt](https://github.com/Nishantg03/healthcare/blob/main/Screenshot%202026-05-29%20133639.png?raw=true)
+![image alt](https://github.com/Nishantg03/healthcare/blob/main/docs/media/screenshots/Screenshot%202026-05-29%20133639.png?raw=true)
 
-![image alt](https://github.com/Nishantg03/healthcare/blob/main/Screenshot%202026-05-29%20133720.png?raw=true)
+![image alt](https://github.com/Nishantg03/healthcare/blob/main/docs/media/screenshots/Screenshot%202026-05-29%20133720.png?raw=true)
 
-![image alt](https://github.com/Nishantg03/healthcare/blob/main/Screenshot%202026-05-29%20134851.png?raw=true)
+![image alt](https://github.com/Nishantg03/healthcare/blob/main/docs/media/screenshots/Screenshot%202026-05-29%20134851.png?raw=true)
 
-![image alt](https://github.com/Nishantg03/healthcare/blob/main/Screenshot%202026-05-29%20134754.png?raw=true)
+![image alt](https://github.com/Nishantg03/healthcare/blob/main/docs/media/screenshots/Screenshot%202026-05-29%20134754.png?raw=true)
 
-![image alt](https://github.com/Nishantg03/healthcare/blob/main/Screenshot%202026-05-29%20134744.png?raw=true)
+![image alt](https://github.com/Nishantg03/healthcare/blob/main/docs/media/screenshots/Screenshot%202026-05-29%20134744.png?raw=true)
 
-https://github.com/Nishantg03/healthcare/blob/35139c7680b73f65bfb9c44057482e265781ab3f/Recording%202026-05-29%20135315%20(online-video-cutter.com).mp4
-
+https://github.com/Nishantg03/healthcare/tree/fe60e9be5a1d521b50f4d64e47be025d27c18db5/docs/media/videos
 
 ## Excel Workbook Format
 
