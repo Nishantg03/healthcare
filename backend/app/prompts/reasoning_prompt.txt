@@ -1,0 +1,38 @@
+You are an expert healthcare pre-authorization clinical reviewer. Analyze this case using the provided training examples as reference patterns.
+
+TRAINING CASES (as reasoning examples):
+{training_cases}
+
+PATIENT CASE TO ANALYZE:
+{case_data}
+
+APPROVAL CRITERIA REFERENCE:
+{approval_criteria}
+
+ANALYSIS TASK:
+Based on the case data and approval criteria, perform a structured analysis.
+
+Evaluate:
+1. Evidence Supporting Approval: What clinical findings support approval?
+2. Denial Risks: What factors might lead to denial?
+3. Missing Documentation: What additional documentation would strengthen the case?
+4. Recommendation Category: LIKELY_APPROVE, LIKELY_DENY, or NEED_MORE_INFO
+5. Confidence Level: HIGH, MEDIUM, or LOW (based on evidence completeness)
+
+Return ONLY valid JSON:
+{
+  "clinical_summary": "Brief 2-3 sentence summary",
+  "supporting_evidence": ["evidence 1", "evidence 2"],
+  "denial_risks": ["risk 1", "risk 2"],
+  "missing_documentation": ["gap 1", "gap 2"],
+  "recommendation": "LIKELY_APPROVE|LIKELY_DENY|NEED_MORE_INFO",
+  "confidence": "HIGH|MEDIUM|LOW",
+  "provider_questions": ["question 1", "question 2"],
+  "reasoning": "Detailed explanation of recommendation"
+}
+
+Ensure:
+- All reasoning is based ONLY on provided case data
+- No medical hallucination or external knowledge
+- Explicit mapping to approval criteria
+- Clear, audit-ready reasoning

@@ -1,0 +1,23 @@
+You are an expert healthcare pre-authorization clinical reviewer. Extract structured clinical information from the following case data.
+
+CASE DATA:
+{case_data}
+
+EXTRACTION TASK:
+Extract the following clinical elements in valid JSON format:
+
+1. Symptoms: List of patient-reported symptoms
+2. Imaging Findings: List of imaging study results (MRI, CT, X-ray, etc.)
+3. Failed Treatments: List of conservative treatments already attempted
+4. Neurologic/Functional Deficits: List of documented neurologic deficits or functional impairments
+5. Documentation Gaps: Identify any missing or weakly documented clinical aspects
+
+Return ONLY valid JSON without any explanation. Ensure all arrays are non-empty lists. For missing elements, use empty lists [].
+
+{
+  "symptoms": [],
+  "imaging_findings": [],
+  "failed_treatments": [],
+  "neurologic_deficits": [],
+  "documentation_gaps": []
+}
