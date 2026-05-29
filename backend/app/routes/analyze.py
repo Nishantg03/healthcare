@@ -57,10 +57,14 @@ async def analyze_case(request: AnalyzeRequest):
         
         # Convert to JSON string for LLM (clean structured JSON)
         normalized_case_json = json.dumps(normalized_case_input, indent=2)
+        if len(normalized_case_json) > 5000:
+            normalized_case_json = normalized_case_json[:5000] + "\n... [truncated for token safety]"
         
         # Get training cases (for few-shot examples)
         training_cases_list = case_data.get("training_cases", [])
-        training_text = json.dumps(training_cases_list[:3], indent=2) if training_cases_list else "[]"
+        training_text = json.dumps(training_cases_list[:1], indent=2) if training_cases_list else "[]"
+        if len(training_text) > 4000:
+            training_text = training_text[:4000] + "\n... [truncated for token safety]"
         
         # Get approval criteria
         approval_criteria = case_data.get("approval_criteria", [])
