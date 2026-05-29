@@ -9,10 +9,15 @@ The Healthcare Pre-Authorization Copilot is an explainable AI system that analyz
 ### Key Features
 
 ✅ **Excel Workbook Parsing** - Multi-sheet support for comprehensive case analysis
+
 ✅ **Explainable AI** - Two-stage LLM reasoning with deterministic criteria matching
+
 ✅ **Production Dashboard** - Professional UI for case analysis and recommendations
+
 ✅ **Audit Trail** - Complete reasoning and evidence tracking
+
 ✅ **Groq Integration** - Fast, efficient LLM processing
+
 ✅ **Type Safety** - Full TypeScript/Pydantic throughout
 
 ### Recommendation Types
