@@ -284,38 +284,6 @@ pylint app/
 npm run lint
 ```
 
-## Troubleshooting
-
-**Issue**: Workbook validation fails
-- **Solution**: Ensure all required sheets exist and contain data
-
-**Issue**: CORS errors
-- **Solution**: Check backend CORS configuration in `main.py`
-
-**Issue**: Groq API errors
-- **Solution**: Verify API key in `.env` and Groq quota
-
-**Issue**: LLM returns invalid JSON
-- **Solution**: Check prompt formatting and temperature settings (currently set to 0.3)
-
-## Security Considerations
-
-- ✅ API key in environment variables (never in code)
-- ✅ Input validation on all endpoints
-- ✅ CORS properly configured
-- ✅ File upload size limits recommended
-- ✅ Type checking prevents injection attacks
-
-## Future Enhancements
-
-- 🚀 Case history database
-- 🚀 Multi-user authentication
-- 🚀 Batch case analysis
-- 🚀 Provider feedback loop
-- 🚀 Custom criteria templates
-- 🚀 Denial appeal generation
-- 🚀 Integration with EHR systems
-
 ## Support & Documentation
 
 - API Documentation: http://localhost:8000/docs
