@@ -284,6 +284,30 @@ pylint app/
 npm run lint
 ```
 
+## Troubleshooting
+
+**Issue**: Workbook validation fails
+- **Solution**: Ensure all required sheets exist and contain data
+
+**Issue**: CORS errors
+- **Solution**: Check backend CORS configuration in `main.py`
+
+**Issue**: Groq API errors
+- **Solution**: Verify API key in `.env` and Groq quota
+
+**Issue**: LLM returns invalid JSON
+- **Solution**: Check prompt formatting and temperature settings
+
+## Future Enhancements
+
+- 🚀 **Case History Database** – Store and track previously analyzed cases and outcomes.
+- 🚀 **Multi-User Authentication** – Secure login with role-based access control.
+- 🚀 **Batch Case Analysis** – Process multiple cases in a single upload.
+- 🚀 **Provider Feedback Loop** – Use reviewer feedback to improve recommendations.
+- 🚀 **Custom Criteria Templates** – Support organization-specific approval rules.
+- 🚀 **Denial Appeal Generation** – Generate appeal drafts for denied cases.
+- 🚀 **EHR Integration** – Automatically fetch patient data from healthcare systems.
+
 ## Support & Documentation
 
 - API Documentation: http://localhost:8000/docs
