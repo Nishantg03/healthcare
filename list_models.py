@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """List available Groq models."""
 import os
 import httpx

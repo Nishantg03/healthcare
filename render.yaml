@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: healthcare-preauth-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: http://localhost:3000,https://your-vercel-app.vercel.app
+      - key: GROQ_MODEL
+        value: mixtral-8x7b-32768

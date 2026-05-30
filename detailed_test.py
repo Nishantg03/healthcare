@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """Test analyze endpoint with detailed error tracing."""
 import requests
 import json

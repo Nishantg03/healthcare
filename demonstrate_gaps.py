@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Demonstrate how gaps show when criteria are PARTIAL or NOT_MET."""
 from app.services.criteria_matcher import CriteriaMatcher
 

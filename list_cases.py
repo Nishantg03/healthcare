@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """List all cases available in the Excel file."""
 import pandas as pd
 

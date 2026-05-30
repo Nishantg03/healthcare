@@ -31,7 +31,9 @@ export interface AnalyzeRequest {
 class ApiService {
   private client: AxiosInstance;
 
-  constructor(baseURL: string = "http://localhost:8000") {
+  constructor(
+    baseURL: string = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
+  ) {
     this.client = axios.create({
       baseURL,
     });
