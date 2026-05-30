@@ -73,6 +73,9 @@ pip install -r requirements.txt
 python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
+🔗 API URL:  
+https://healthcare-podi.onrender.com/
+
 Backend will be available at: `http://localhost:8000`
 
 ### Frontend Setup
@@ -87,6 +90,10 @@ npm install
 # Start development server
 npm run dev
 ```
+
+🔗 Live URL:  
+https://health-care-peach-nine.vercel.app/
+
 
 Frontend will be available at: `http://localhost:3000`
 
